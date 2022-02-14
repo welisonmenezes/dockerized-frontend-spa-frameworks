@@ -1,4 +1,4 @@
-# Dockerized React Developement Environment
+# Dockerized React Development Environment
 
 This container keeps the React hot reload functionality while it runs from Windows 10 host.
 
