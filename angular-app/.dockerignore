@@ -5,3 +5,4 @@
 **/.dockerignore
 **/README.md
 **/.vscode
+**/.angular

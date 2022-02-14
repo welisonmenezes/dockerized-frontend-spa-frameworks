@@ -8,8 +8,6 @@ COPY ./package*.json .
 
 RUN npm install
 
-RUN npm install @angular/cli -g
-
 COPY . .
 
 EXPOSE 4200
