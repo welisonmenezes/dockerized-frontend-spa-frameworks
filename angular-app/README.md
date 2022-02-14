@@ -1,6 +1,6 @@
-# Dockerized React Development Environment
+# Dockerized Angular Development Environment
 
-This container keeps the React hot reload functionality while it runs from Windows 10 host.
+This container keeps the Angular hot reload functionality while it runs from Windows 10 host.
 
 ### Host Environment
 
@@ -21,5 +21,5 @@ This container keeps the React hot reload functionality while it runs from Windo
 - ```docker-compose down```
     - to stop and remove containers, images and volumes
 
-- ```docker exec -ti react-app /bin/sh```
+- ```docker exec -ti angular-app /bin/sh```
     - to access the container's bash
