@@ -2,14 +2,13 @@ version: "3"
 
 services:
   app:
-    container_name: react-app
-    image: react-app
+    container_name: vue-app
+    image: vue-app
     stdin_open: true
     tty: true
     environment:
       - NODE_ENV=development
-      - CHOKIDAR_USEPOLLING=500
-      - WDS_SOCKET_PORT=35729
+      - CHOKIDAR_USEPOLLING=true
     restart: on-failure
     build:
       context: .
@@ -18,6 +17,5 @@ services:
       - ./src:/app/src
       - ./public:/app/public
     ports:
-      - "3000:3000"
-      - "35729:35729"
+      - "8080:8080"
 
